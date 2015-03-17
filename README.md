@@ -1,1 +1,1 @@
-# framer-equally-rotate-image
+# Equally Rotate Image Array In Circle
