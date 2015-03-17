@@ -58,6 +58,7 @@ rotateAngle = splitImageArray.splitImageArray(allArtboards)
 
 startAngle = 0
 
+# Using the interval function to rotate the container 'rotateAngle' degrees every 1 second.
 Utils.interval 1, ->
 	container.animate
 		properties: {rotationZ: startAngle + rotateAngle}
