@@ -1,0 +1,1 @@
+# framer-equally-rotate-image
