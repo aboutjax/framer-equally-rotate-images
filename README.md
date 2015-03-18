@@ -7,17 +7,17 @@ Give the function an array of images, and it will automatically rotate them equa
 [Framer Prototype](http://share.framerjs.com/qhoqu1p9urk6/)
 
 #Instructions
-###Include the module in your Framer prototype file.
+1.Include the module in your Framer prototype file.
 ```
 splitImageArray = require "split-image-array"
 ```
 
-###Add your images to an array, technically you can add however many images you want, under 8 is optimal
+2.Add your images to an array, technically you can add however many images you want, under 8 is optimal
 ```
 allArtboards = [artboard1, artboard2, artboard3, artboard4, artboard5]
 ```
 
-###Give the `splitImageArray()` the image array
+3.Give the `splitImageArray()` the image array
 ```
 splitImageArray.splitImageArray(allArtboards)
 ```
