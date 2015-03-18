@@ -1,5 +1,6 @@
 # Made with Framer
 # By Jacky Lee & Tiffany Liu
+# Illustration by Jade Tan
 # www.framerjs.com
 
 # This imports all the layers for "vend-loading" into vendLoadingLayers
