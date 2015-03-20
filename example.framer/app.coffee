@@ -5,7 +5,7 @@
 
 # This imports all the layers for "vend-loading" into vendLoadingLayers
 sketch = Framer.Importer.load "imported/vend-loading"
-splitImageArray = require "split-image-array"
+splitImageArrayModule = require "split-image-array"
 
 # Specifying the width and height of the Sketch artboards
 artboardWidth = sketch.artboard1.width
@@ -55,7 +55,7 @@ for artboard in allArtboards
 # 2. Rotate each image with new anchor with the calculated angle rotation.
 # 3. Return the angle rotation to use in this file.
 
-rotateAngle = splitImageArray.splitImageArray(allArtboards)
+rotateAngle = splitImageArrayModule.splitImageArray(allArtboards)
 
 startAngle = 0
 
